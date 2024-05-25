@@ -93,11 +93,29 @@ footer {
   
   .kilifi{
     display: grid;
-    grid-template-columns: auto,auto,auto;
-    background-color: rgb(80, 167, 167);
+    grid-template-columns: auto auto auto;
+    padding:3px;
+    margin: 5px;
   }
   .security{
-    background-color: #ac3030;
-    border: solid black;
-    text-align: justify;
+   background-color: rgba(17, 17, 17, 0.87);
+   padding: 10px;
+   font-size: 24px;
+   color: #fffafa;
+    text-align: center;
+  }
+  .infrastructure{
+    padding: 10px;
+    background-color: rgba(17, 17, 17, 0.87);
+    font-size: 24px;
+    color: #fffafa;
+    text-align: center;
+  }
+  .hospitality{
+    padding: 10px;
+    background-color: rgba(17, 17, 17, 0.87);
+    font-size: 24px;
+    text-align: center;
+    color: #fffafa;
+
   }
